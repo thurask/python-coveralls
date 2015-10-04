@@ -1,5 +1,5 @@
 import os
-import sh
+import pbs as sh
 FORMAT = '%n'.join(['%H', '%aN', '%ae', '%cN', '%ce', '%s'])
 
 
